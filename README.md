@@ -22,6 +22,6 @@ Language-Independent Named Entity Recognition](https://arxiv.org/pdf/cs/0306050v
 #### Experiments 
 --- 
 
-`token-classification-benchmark.ipynb`: We experiment 11 different methods of aggregating the label quality scores for each token and obtain sentence label quality score, and evaluate the precision-recall curve and related metrics for each method. We consider the named entity recognition dataset CoNLL-2003, and use CoNLL++ as the ground truth.
+`token-classification-benchmark.ipynb`: We implement 11 different methods of aggregating the label quality scores for each token to obtain an overall score per sentence, and evaluate the precision-recall curve and related label-error detection metrics for each method. We consider the named entity recognition dataset CoNLL-2003, and use CoNLL++ as the ground truth.
 
 `token-level.ipynb`: We examine the token-level label errors for the same dataset (rather than sentence-level). We examine the distribution of the label errors by class, and experiment different label quality scoring methods on the token-level. 
