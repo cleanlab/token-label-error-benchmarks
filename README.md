@@ -17,11 +17,10 @@ CoNLL-2003:
 Language-Independent Named Entity Recognition](https://arxiv.org/pdf/cs/0306050v1.pdf) 
 - Original dataset: [Papers with Code](https://paperswithcode.com/dataset/conll-2003). 
 - Verified Labels (CoNLL++): https://github.com/ZihanWangKi/CrossWeigh/tree/master/data 
-- CoNLL++ is described in this paper: [CrossWeigh: Training Named Entity Tagger from Imperfect Annotations](https://aclanthology.org/D19-1519.pdf) 
 
 #### Experiments 
 --- 
 
 `token-classification-benchmark.ipynb`: We implement 11 different methods of aggregating the label quality scores for each token to obtain an overall score per sentence, and evaluate the precision-recall curve and related label-error detection metrics for each method. We consider the named entity recognition dataset CoNLL-2003, and use CoNLL++ as the ground truth.
 
-`token-level.ipynb`: We examine the token-level label errors for the same dataset (rather than sentence-level). We examine the distribution of the label errors by class, and experiment different label quality scoring methods on the token-level. 
+`token-level.ipynb`: We examine the token-level label errors for the same dataset (rather than sentence-level). We examine the distribution of the label errors by class, and evaluate different label quality scoring methods on the token-level. 
