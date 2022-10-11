@@ -8,7 +8,7 @@ This repository is only for intended for scientific purposes. To find label erro
 
 #### Install Cleanlab Package 
 --- 
-Install the Cleanlab version used for this experiment: `pip install ./cleanlab`
+Install the Cleanlab version used for our experiments: `pip install ./cleanlab`
 
 #### Download Datasets 
 ---
