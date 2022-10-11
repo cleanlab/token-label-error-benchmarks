@@ -1,5 +1,5 @@
-# Token Classfication Label Error Detection 
----
+# Benchmarking methods for label error detection in token classification data
+
 Code to reproduce results from the paper: 
 [Detecting Label Errors in Token Classification Data](https://arxiv.org/pdf/2210.03920.pdf)
 
