@@ -1,13 +1,14 @@
-This repository is only for intended for scientific purposes. To find label errors in your own token classification data, you should instead use [the implementation](https://docs.cleanlab.ai/stable/tutorials/token_classification.html) from the official [cleanlab library](https://github.com/cleanlab/cleanlab).
-
 # Token Classfication Label Error Detection 
 ---
-Code to product results from the paper: 
-[Detecting Label Errors in Token Classification Data](https://arxiv.org/pdf/2210.03920.pdf). *Preprint. Under review.* 
+Code to reproduce results from the paper: 
+[Detecting Label Errors in Token Classification Data](https://arxiv.org/pdf/2210.03920.pdf)
+
+This repository is only for intended for scientific purposes. To find label errors in your own token classification data, you should instead use [the implementation](https://docs.cleanlab.ai/stable/tutorials/token_classification.html) from the official [cleanlab library](https://github.com/cleanlab/cleanlab).
+
 
 #### Install Cleanlab Package 
 --- 
-Install the Cleanlab version used for this experiment: `pip install /cleanlab`
+Install the Cleanlab version used for this experiment: `pip install ./cleanlab`
 
 #### Download Datasets 
 ---
